@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.margin-Top{
+    margin-top: 70px;
+}
+.eachNews{
+    position: relative;
+}
+.newsPhoto{
+    height: 250px;
+    cursor: pointer;
+}
+.newsPhoto img{
+    height: 100%;
+    width: 100%;
+}
+.newsTitle{
+    color: blueviolet;
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+}
+.newsBody{
+    background-color: lightblue;
+    height: 350px;
+    text-align: center;
+}
+#digitalHour ,#digitalDay{
+    color: blueviolet;
+    font-size: 3rem;
+    font-weight: bold;
+}
